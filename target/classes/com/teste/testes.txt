@@ -1,4 +1,4 @@
-<Junit> 
+<Junit> {
 
 ° Framework simples e de código aberto
 
@@ -41,4 +41,5 @@ Testando Exceções {
 
 ° Try/Catch idiom ();
 
-
+}
+}

@@ -1,0 +1,35 @@
+<Asserts> {
+
+1.0 - O que são Asserts? {
+Asserts são métodos utilitários usados para determinar se um caso de teste têm sucesso ou não. Esses métodos são oferecidos pela classe
+Assert do pacote org.junit. 
+
+1.1 - Como usar ?
+Usar diretamente como assertEquals():
+Assert.assertEquals(...)
+import static org.junit.Assert.*;
+AssertEqauls(...)
+import static -> deixa o código mais çegível e de melhor compreenção.
+
+1.2 - Métodos {
+Junit sobrecarrega asssert para todos os tipos primitivos, objeto e array.
+
+}
+
+2.0 - Matchers e Hamcrest {
+Hamcrest são usados para teste de unidade, ele funciona com Junit, e usa predicados existentes para fazer asserts. Em vez de usar vários
+asserts, usamos apenas a declaração assertThat com os matchers adequados.
+Matchers
+- Object Matcher
+- Bean Matcher
+- Collection Matcher
+- Number Matcher
+- Text Matcher 
+}
+
+3.0 - AssertJ {
+Permite escrever asserts mais fluentes, ou seja, de mais fácil compreenção. AssertJ é um conjunto de classes e métodos para escrever facilmente
+assert para classes java. Têm que adicionar a dependência no pom.xml.
+Fornece asserts para objetos, boleanos, arrays, caracteres, classes, fails, arquivos, doubles, float, integer, streams, map, etc.
+
+}

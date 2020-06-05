@@ -1,0 +1,28 @@
+<Mocks> {
+
+1.0 - O que são Mocks? {
+
+Objetos Mock, objetos simulados ou simplesmente Mock é um termo utilizado para descrever objetos que simulam comportamento de objetos 
+reais de forma controlada.
+São normalmente criados para testar o comportamento de outros objetos. Em outras palavras, os objetos mock são objetos “falsos” que 
+simulam o comportamento de uma classe ou objeto “real” para que possamos focar o teste na unidade a ser testada.
+Uma das razões para usar Mocks é que criar objetos reais para testes é difícil.
+
+}
+
+2.Frameworks {
+
+° Mockito é uma estrutura de teste de código aberto para Java liberada sob a licença MIT. A estrutura permite a criação de 
+objetos duplos de teste em testes de unidade automatizados com o objetivo de desenvolvimento orientado a teste ou desenvolvimento 
+orientado a comportamento.
+Permite que sejam construídos testes com uma API simples e clara.
+
+° EasyMock é uma estrutura de teste de código aberto para Java lançada sob a Licença Apache. A estrutura permite a
+ criação de objetos duplos de teste para fins de desenvolvimento orientado a teste ou desenvolvimento orientado a comportamento.
+
+° PowerMockito O PowerMockito é uma API de extensão do PowerMock para oferecer suporte ao Mockito. Ele fornece recursos para 
+trabalhar com a API Java Reflection de uma maneira simples para superar os problemas do Mockito, como a falta de capacidade de trabalhar
+com métodos finais, estáticos ou privados.
+
+}
+}
