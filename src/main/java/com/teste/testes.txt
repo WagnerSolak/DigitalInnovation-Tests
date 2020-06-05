@@ -1,0 +1,44 @@
+<Junit> 
+
+° Framework simples e de código aberto
+
+° Testes Unitários (testar um único método de uma classe por exemplo)
+
+° Organização do código (áreas código/teste)
+
+° Testar sempre (precisa sempre testar positivo)
+
+
+Asserts {
+
+° Afirmação;
+
+° Assertions para tipos primitivos, Objetos e arrays ( int, String, objetos ou arrays);
+
+° Import static (torna codigo mais simples);
+
+° Ordem dos parâmetros (valor esperado seguido pelo valor atual);
+}
+
+Rules {
+
+Rules é um Componente que intercepta uma chamada para um método e permite uma ação antes ou após execução do método;
+A funcionalidade Rules do jUnit é muito poderosa, ela nos permite executar cada método de teste dentro de um contexto 
+isolado, dentro de sua própria sandbox. Com ela é possível criar contextos do Spring, preparar o EntityManager da JPA 
+ou uma conexão JDBC para os testes de integração, fazer mocking e injeção de dependência (DI), levantar servidores 
+embarcados e muitos mais;
+Podemos criar arquivos e diretórios que serão deletados após o método ser executado.
+
+}
+
+Testando Exceções {
+
+° Expected Exceptions, Expected Exceptions Rules e Try / Catch Idiom.
+
+° Exceções esperadas (fazemos o teste em cima das excecoes que sabemos que ocorram);
+
+° Exceções esperadas Rule ();
+
+° Try/Catch idiom ();
+
+
